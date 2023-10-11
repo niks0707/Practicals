@@ -1,0 +1,9 @@
+javac *.java
+
+rmiregistry
+
+rmiregistry 1234
+
+java server 
+
+java client

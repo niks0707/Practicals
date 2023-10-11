@@ -1,0 +1,11 @@
+rpcgen -a -C add.txt
+
+make -f Makefile.add
+
+edit server.c and client.c 
+
+make -f Makefile.add
+
+sudo ./add_server
+
+sudo ./add_client
