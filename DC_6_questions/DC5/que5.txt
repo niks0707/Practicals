@@ -1,0 +1,3 @@
+Design a Distributed application using SOCKET in which a server implements 
+maximum procedures for mathematical operations like 
+calculating square roots, square, factorial of a number etc.

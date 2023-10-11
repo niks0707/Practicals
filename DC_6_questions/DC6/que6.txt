@@ -1,0 +1,2 @@
+Design a Distributed application using Socket in which a server implements maximum procedures for  
+operations on strings like comparing string, counting characters in the string etc.
