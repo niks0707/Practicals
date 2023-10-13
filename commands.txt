@@ -1,0 +1,31 @@
+<------RPC commands----->
+
+rpcinfo
+
+sudo apt-get install rpcbind
+
+rpcgen -a -C add.x
+
+make -f Makefile.add
+
+sudo ./add_server
+
+sudo ./add_client localhost
+
+<------RMI commands----->
+
+javac *.java
+
+rmiregistry 1234
+
+java server.java
+
+java client.java
+
+<-----Socket----->
+
+python3 server.py
+
+python3 client.py
+
+
